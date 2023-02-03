@@ -3,6 +3,6 @@ public class Casting {
         byte b = 127;
         int i = b;
 
-        System.out.println(b);
+        System.out.println(i);
     }
 }
