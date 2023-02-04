@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class TestOrders {
-    public static void main(String[] asses) {
+    public static void main(String[] args) {
     
         Order order1 = new Order();
         Order order2 = new Order();
@@ -15,15 +15,12 @@ public class TestOrders {
         Item item3 = new Item("Roll", 5.00);
         Item item4 = new Item("Cake", 4.2);
 
-
         order3.addItem(item1);
         order3.addItem(item2);
-
 
         order2.addItem(item2);
         order2.addItem(item3);
         order2.addItem(item4);
-
 
         order2.setIsReady();
         System.out.println(order2.getIsReady());
