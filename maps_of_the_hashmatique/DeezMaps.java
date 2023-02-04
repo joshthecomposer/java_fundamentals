@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Set;
 class DeezMaps {
-    public static void main(String[] asses) {
+    public static void main(String[] args) {
         HashMap<String, String> trackList = new HashMap<String, String>();
         trackList.put("Twinkle Twinkle", "LELELELE...");
         trackList.put("ABCs", "A B C D E F G...");
