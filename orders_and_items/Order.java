@@ -64,6 +64,8 @@ public class Order {
     }
 
     public void display() {
+        System.out.println("=================================");
+        System.out.println("YOUR RECEIPT:");
         System.out.printf("Customer name : %s\n", this.name);
         for(Item item : this.items) {
             System.out.printf("%s - %.2f\n", item.getName(), item.getPrice());

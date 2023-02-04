@@ -34,6 +34,8 @@ public class CoffeeKiosk {
 
             this.menu.add(item);
             item.setIndex(this.menu.indexOf(item));
+
+            displayMenu();
             return;
         }
     }
@@ -76,6 +78,7 @@ public class CoffeeKiosk {
             }
             Item item = this.menu.get(Integer.parseInt(itemNumber));
             newOrder.addItem(item);
+            System.out.printf("%s added to order.\n", item.getName());
             // Ask them to enter a new item index or q again, and take their input
         }
 
