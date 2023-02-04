@@ -7,6 +7,7 @@ public class Item {
         this("Void", 0.0);
     }
     public Item(String name, double price) {
+        this.index = 0;
         this.name = name;
         this.price = price;
     }
